@@ -2,4 +2,5 @@ http://example.com/2023/09/17/java-base/
 http://example.com/2023/09/17/hello-blog-test/
 http://example.com/2023/09/17/hello-world/
 http://example.com/
+http://example.com/tags/java/
 http://example.com/tags/%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84%E6%B5%8B%E8%AF%95%EF%BC%8C%EF%BC%8C%EF%BC%8C%EF%BC%8C%EF%BC%8C/
