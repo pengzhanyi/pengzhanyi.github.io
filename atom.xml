@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-17T12:41:11.859Z</updated>
+  <updated>2023-09-18T08:56:31.252Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="http://example.com/2023/09/17/%E4%B8%AA%E4%BA%BAblog%E5%BB%BA%E8%AE%BE/"/>
     <id>http://example.com/2023/09/17/%E4%B8%AA%E4%BA%BAblog%E5%BB%BA%E8%AE%BE/</id>
     <published>2023-09-17T12:19:01.000Z</published>
-    <updated>2023-09-17T12:41:11.859Z</updated>
+    <updated>2023-09-18T08:56:31.252Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑"><a href="#记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑" class="headerlink" title="记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑"></a>记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑</h1><ul><li><p>1 安装配置Node.js,<a href="https://blog.csdn.net/weixin_52799373/article/details/123840137">教程</a></p></li><li><p>2 <a href="https://zhuanlan.zhihu.com/p/392994381">安装Git ，并生成SSH密钥</a></p></li><li><p>3 下载hexo，（注意必须在管理员权限下的gitbash或powershell中下载）</p></li><li><p>4 <a href="https://zhuanlan.zhihu.com/p/78467553">部署网站</a></p></li><li><p>5 下载并应用butterfly主题时的<a href="https://zhuanlan.zhihu.com/p/137946156">坑</a></p></li></ul><p>补充</p><ul><li>6 <a href="https://hexo.io/zh-cn/docs/configuration.html">hexo官方文档</a><ul><li><p>hexo 命令要命令行在blog文件位置才有效</p><ul><li>或将hexo加入环境变量</li></ul></li><li><p>hexo new “name’      &#x2F;&#x2F;新建文章</p></li><li><p>hexo new page “name” &#x2F;&#x2F;新建页面</p></li><li><p>hexo clean &#x2F;&#x2F;清除缓存文件</p></li><li><p>hexo g   &#x2F;&#x2F;生成页面</p></li><li><p>hexo s  &#x2F;&#x2F;启动预览</p></li><li><p>hexo d  &#x2F;&#x2F;部署到Github</p></li></ul></li><li>7 (Butterfly主题官方文档)[<a href="https://butterfly.js.org/]">https://butterfly.js.org/]</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h1 id="记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑（windows）"><a href="#记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑（windows）" class="headerlink" title="记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑（windows）"></a>记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑（windows）</h1><ul><li><p>1 安装配置Node.js,<a href="https://blog.csdn.net/weixin_52799373/article/details/123840137">教程</a></p></li><li><p>2 <a href="https://zhuanlan.zhihu.com/p/392994381">安装Git ，并生成SSH密钥</a></p></li><li><p>3 下载hexo，（注意必须在管理员权限下的gitbash或powershell中下载）</p></li><li><p>4 <a href="https://zhuanlan.zhihu.com/p/78467553">部署网站</a></p></li><li><p>5 下载并应用butterfly主题时的<a href="https://zhuanlan.zhihu.com/p/137946156">坑</a></p></li></ul><p>补充</p><ul><li>6 <a href="https://hexo.io/zh-cn/docs/configuration.html">hexo官方文档</a><ul><li><p>hexo 命令要命令行在blog文件位置才有效</p><ul><li>或将hexo加入环境变量</li></ul></li><li><p>hexo new “name’      &#x2F;&#x2F;新建文章</p></li><li><p>hexo new page “name” &#x2F;&#x2F;新建页面</p></li><li><p>hexo clean &#x2F;&#x2F;清除缓存文件</p></li><li><p>hexo g   &#x2F;&#x2F;生成页面</p></li><li><p>hexo s  &#x2F;&#x2F;启动预览</p></li><li><p>hexo d  &#x2F;&#x2F;部署到Github</p></li></ul></li><li>7 <a href="https://butterfly.js.org/">Butterfly主题官方文档</a></li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑&quot;&gt;&lt;a href=&quot;#记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑&quot; class=&quot;headerlink&quot; title=&quot;</summary>
+    <summary type="html">&lt;h1 id=&quot;记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑（windows）&quot;&gt;&lt;a href=&quot;#记录关于在Github的Pages上用hexo的模板建设个人网站过程中用到的教程和走的一些坑（windows）&quot; class=&quot;h</summary>
       
     
     

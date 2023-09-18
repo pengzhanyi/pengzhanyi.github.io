@@ -3,5 +3,5 @@ http://example.com/2023/09/17/hello-blog-test/
 http://example.com/2023/09/17/java-base/
 http://example.com/2023/09/17/hello-world/
 http://example.com/
-http://example.com/tags/java/
 http://example.com/tags/blog-bulid/
+http://example.com/tags/java/
