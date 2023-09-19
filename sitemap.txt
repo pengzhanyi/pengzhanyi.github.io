@@ -1,7 +1,8 @@
+http://example.com/2023/09/19/java_base2/
 http://example.com/2023/09/17/java-base/
 http://example.com/2023/09/17/%E4%B8%AA%E4%BA%BAblog%E5%BB%BA%E8%AE%BE/
 http://example.com/2023/09/17/hello-blog-test/
 http://example.com/2023/09/17/hello-world/
 http://example.com/
-http://example.com/tags/blog-bulid/
 http://example.com/tags/java/
+http://example.com/tags/blog-bulid/
