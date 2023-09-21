@@ -4,5 +4,5 @@ https://pengzhanyi.github.io/2023/09/17/%E4%B8%AA%E4%BA%BAblog%E5%BB%BA%E8%AE%BE
 https://pengzhanyi.github.io/2023/09/17/hello-blog-test/
 https://pengzhanyi.github.io/2023/09/17/hello-world/
 https://pengzhanyi.github.io/
-https://pengzhanyi.github.io/tags/blog-bulid/
 https://pengzhanyi.github.io/tags/java/
+https://pengzhanyi.github.io/tags/blog-bulid/
