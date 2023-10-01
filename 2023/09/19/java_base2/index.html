@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pengzhanyi.github.io/img/head_sculpture.jpg">
 <meta property="article:published_time" content="2023-09-19T13:37:20.000Z">
-<meta property="article:modified_time" content="2023-09-25T16:19:07.913Z">
+<meta property="article:modified_time" content="2023-09-30T06:17:07.825Z">
 <meta property="article:author" content="zhanyi peng">
 <meta property="article:tag" content="java">
 <meta name="twitter:card" content="summary">
@@ -56,7 +56,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-09-26 00:19:07'
+  postUpdate: '2023-09-30 14:17:07'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -162,7 +162,7 @@
       }
       detectApple()
     })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Blog | kaori" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head_sculpture.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Blog | kaori"><span class="site-name">Blog | kaori</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">java基础——面向对象基础</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-19T13:37:20.000Z" title="发表于 2023-09-19 21:37:20">2023-09-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-09-25T16:19:07.913Z" title="更新于 2023-09-26 00:19:07">2023-09-26</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="java基础——面向对象基础"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>java-面向对象基础</p>
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head_sculpture.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Blog | kaori"><span class="site-name">Blog | kaori</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">java基础——面向对象基础</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-19T13:37:20.000Z" title="发表于 2023-09-19 21:37:20">2023-09-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-09-30T06:17:07.825Z" title="更新于 2023-09-30 14:17:07">2023-09-30</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="java基础——面向对象基础"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>java-面向对象基础</p>
 <h1 id="类和对象"><a href="#类和对象" class="headerlink" title="类和对象"></a>类和对象</h1><h2 id=""><a href="#" class="headerlink" title=""></a></h2><ul>
 <li>类是规范，类是定义了这个类所有对象的属性和操作，可以根据类的定义来创建对象</li>
 </ul>
@@ -303,10 +303,17 @@
 </ul>
 </li>
 </ul>
-<p>补充</p>
-<blockquote>
-<p>main方法语法分析<br>解释main方法的形式：<br> public static void main(String[] args){}<br>1.jvm需要调用类中的main方法，故该方法的访问权限必须是public<br>2.jvm在执行main方法时不必创建对象，所以该方法必须是static<br>3.该方法接受String类型的数组参数，该数组中保存执行java命令时传递给所运行类的参数<br>4.java 执行程序 参数1 参数2 参数3<br>在命令行中 传入参数后，可以在程序中从args中取出这些参数</p>
-</blockquote>
+<p>补充<br>main方法语法分析</p>
+<ul>
+<li>解释main方法的形式：<br> public static void main(String[] args){}  <ul>
+<li>1.jvm需要调用类中的main方法，故该方法的访问权限必须是public</li>
+<li>2.jvm在执行main方法时不必创建对象，所以该方法必须是static  </li>
+<li>3.该方法接受String类型的数组参数，该数组中保存执行java命令时传递给所运行类的参数  </li>
+<li>4.java 执行程序 参数1 参数2 参数3<br> 在命令行中 传入参数后，可以在程序中从args中取出这些参数</li>
+</ul>
+</li>
+<li>java执行class文件对package的路径是强依赖的。<br> 它在执行的时候会严格以当前用户路径为基础，按照package指定的包路径转化为文件路径去搜索class文件。所需要返回package指定的包路径的上一层路径去执行，就不会报错了<br> - 例如执行work包内的Test.class文件则需要返回到上一层路径：输入<br> <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java work.Test</span><br></pre></td></tr></table></figure></li>
+</ul>
 <h2 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h2><h3 id="对象含义"><a href="#对象含义" class="headerlink" title="对象含义"></a>对象含义</h3><ul>
 <li><p>对象 &#x3D; 数据 + 服务（提供的待使用函数）</p>
 </li>
