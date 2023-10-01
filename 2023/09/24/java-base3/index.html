@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pengzhanyi.github.io/images/java_base3_03.jpg">
 <meta property="article:published_time" content="2023-09-24T08:50:40.000Z">
-<meta property="article:modified_time" content="2023-10-01T15:58:01.809Z">
+<meta property="article:modified_time" content="2023-10-01T17:10:32.981Z">
 <meta property="article:author" content="zhanyi peng">
 <meta property="article:tag" content="java">
 <meta name="twitter:card" content="summary">
@@ -56,7 +56,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-10-01 23:58:01'
+  postUpdate: '2023-10-02 01:10:32'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -162,7 +162,7 @@
       }
       detectApple()
     })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Blog | kaori" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head_sculpture.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/images/java_base3_03.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Blog | kaori"><span class="site-name">Blog | kaori</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">java基础- 基于面向对象的应用</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-24T08:50:40.000Z" title="发表于 2023-09-24 16:50:40">2023-09-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-10-01T15:58:01.809Z" title="更新于 2023-10-01 23:58:01">2023-10-01</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="java基础- 基于面向对象的应用"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>[TOC]</p>
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head_sculpture.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/images/java_base3_03.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Blog | kaori"><span class="site-name">Blog | kaori</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">java基础- 基于面向对象的应用</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-24T08:50:40.000Z" title="发表于 2023-09-24 16:50:40">2023-09-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-10-01T17:10:32.981Z" title="更新于 2023-10-02 01:10:32">2023-10-02</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="java基础- 基于面向对象的应用"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>[TOC]</p>
 <h1 id="枚举和注解"><a href="#枚举和注解" class="headerlink" title="枚举和注解"></a>枚举和注解</h1><h2 id="枚举"><a href="#枚举" class="headerlink" title="枚举"></a>枚举</h2><ul>
 <li><p>基本介绍：</p>
 <ul>
@@ -716,26 +716,49 @@
 </li>
 </ul>
 </li>
-<li><p>创建String对象的两种方式</p>
+<li><p><strong>创建String对象的两种方式</strong></p>
 <ul>
 <li><p>一 .直接赋值 String s &#x3D; “hello” ;</p>
 <ul>
-<li>使用直接赋值时 ，会先从常量池查看是否已有”hello”的数据空间，如果有则直接指向该位置 ； 若是没有则在常量池中重新创建，然后指向，故s最终指向仍是常量池的空间</li>
+<li>使用直接赋值时 ，会先从常量池查看是否已有”hello”的数据空间，如果有则直接指向该位置 ； 若是没有则在常量池中重新创建，然后指向常量池中该数据位置，故s最终指向仍是常量池的空间</li>
 </ul>
 </li>
-<li><p>二 .调用构造器 String s &#x3D; new String(“hello”);</p>
+<li><p>二 .调用构造器 String s &#x3D; new String(“abc”);</p>
 <ul>
-<li><p>这个过程中生成两个对象</p>
+<li><p>这个过程中生成一个或两个对象，取决于常量池是否有该字符串</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/1686226">相关解析</a></p>
 </li>
 <li><p>Object类中对String的解释：</p>
   <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="title function_">String</span><span class="params">(String original)</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.value = original.value;</span><br><span class="line">    <span class="built_in">this</span>.hash = original.hash;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>在字符串常量池中查找是否存在字符串“hello”。如果不存在，现在字符串常量池中开辟一块存储区，存放“hello”对象，变量original指向这个常量池中的对象，然后在堆内寸中，开辟一块存储区，将常量池中字符串的值，复制一份到堆内存的存储区中，然后，新创建的变量s,指向堆内存中的对象。所以创建了两个对象，分别指常量池存放“hello”和堆内寸中存放“hello”。</p>
+<li><p>创建字符串常量时，JVM会首先检查字符串常量池，如果该字符串已经存在常量池中，那么不再在字符串常量池创建该字符串对象，在堆中创建String对象，让栈中的String引用变量s管理该String对象，然后堆中String的属性（数组引用）value指向常量池中的数据</p>
 </li>
-<li><p>如果字符串常量已存在，在堆内开辟一块存储区，将常量池中字符串的值，复制一份到堆内存的存储区中，然后，新创建的变量S1就是指向堆内存中存储“hello”的对象。</p>
+<li><p>如果字符串不存在常量池中，就会实例化该字符串并且将其放到常量池中，然后进行如上操作。</p>
+</li>
+<li><p>s最终指向是堆中的空间，(是指向堆中创建的String对象,String对象中的value指向常量池中的数据)</p>
+<ul>
+<li>故如果new两个String &#x3D; “hello”,则两个String的value数组引用中存放的地址相同，即都指向常量池中的“hello”。</li>
+</ul>
+</li>
+<li><p><img src="/images/java_base3_05.png" alt="img"></p>
 </li>
 </ul>
 </li>
+<li><p>补充：String的intern()函数</p>
+<ul>
+<li>当调用intern方法时，如果池已经包含一个等于此String对象的字符串（用equals(Object)方法确定），则返回来自池的字符串。否则，此String对象将添加到池中，并返回对此String对象的引用</li>
+<li>即intern()方法最终是返回在常量池中的地址</li>
+</ul>
+</li>
+<li><p>相关实例：</p>
+ <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">a</span> <span class="operator">=</span> <span class="string">&quot;abc&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">b</span> <span class="operator">=</span> <span class="string">&quot;abc&quot;</span>;</span><br><span class="line">System.out.println(a == b);<span class="comment">//T</span></span><br><span class="line"></span><br><span class="line"><span class="type">String</span> <span class="variable">c</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(<span class="string">&quot;abc&quot;</span>) ;</span><br><span class="line"><span class="type">String</span> <span class="variable">d</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(<span class="string">&quot;abc&quot;</span>);</span><br><span class="line">System.out.println(c == d);<span class="comment">//F</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">System.out.println(a == d.intern());<span class="comment">//T</span></span><br><span class="line">System.out.println(c == d.inter());<span class="comment">//F</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>String特性</p>
+<ul>
+<li>String是一个final类，代表不可变的字符序列</li>
+<li>字符串是不可变的。一个字符串对象一旦被分配，其内容是不可变的</li>
 </ul>
 </li>
 </ul>

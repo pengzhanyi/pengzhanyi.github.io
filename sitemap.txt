@@ -7,5 +7,5 @@ https://pengzhanyi.github.io/2023/09/17/hello-blog-test/
 https://pengzhanyi.github.io/2023/09/17/hello-world/
 https://pengzhanyi.github.io/
 https://pengzhanyi.github.io/tags/408%E5%9F%BA%E7%A1%80/
-https://pengzhanyi.github.io/tags/java/
 https://pengzhanyi.github.io/tags/blog-bulid/
+https://pengzhanyi.github.io/tags/java/
