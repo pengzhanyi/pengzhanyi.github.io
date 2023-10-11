@@ -4,7 +4,16 @@
   <url>
     <loc>https://pengzhanyi.github.io/2023/09/24/java-base3/</loc>
     
-    <lastmod>2023-10-08</lastmod>
+    <lastmod>2023-10-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pengzhanyi.github.io/2023/09/19/java_base2/</loc>
+    
+    <lastmod>2023-10-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -14,15 +23,6 @@
     <loc>https://pengzhanyi.github.io/2023/09/17/java-base/</loc>
     
     <lastmod>2023-10-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://pengzhanyi.github.io/2023/09/19/java_base2/</loc>
-    
-    <lastmod>2023-10-04</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -67,7 +67,7 @@
 
   <url>
     <loc>https://pengzhanyi.github.io/</loc>
-    <lastmod>2023-10-08</lastmod>
+    <lastmod>2023-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,21 +75,21 @@
   
   <url>
     <loc>https://pengzhanyi.github.io/tags/408%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2023-10-08</lastmod>
+    <lastmod>2023-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pengzhanyi.github.io/tags/java/</loc>
-    <lastmod>2023-10-08</lastmod>
+    <lastmod>2023-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://pengzhanyi.github.io/tags/blog-bulid/</loc>
-    <lastmod>2023-10-08</lastmod>
+    <lastmod>2023-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
