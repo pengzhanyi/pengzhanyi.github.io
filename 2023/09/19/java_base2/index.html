@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pengzhanyi.github.io/img/head_sculpture.jpg">
 <meta property="article:published_time" content="2023-09-19T13:37:20.000Z">
-<meta property="article:modified_time" content="2023-10-12T18:21:59.547Z">
+<meta property="article:modified_time" content="2023-10-13T17:51:36.854Z">
 <meta property="article:author" content="zhanyi peng">
 <meta property="article:tag" content="java">
 <meta name="twitter:card" content="summary">
@@ -56,7 +56,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-10-13 02:21:59'
+  postUpdate: '2023-10-14 01:51:36'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -162,7 +162,7 @@
       }
       detectApple()
     })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Blog | kaori" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head_sculpture.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Blog | kaori"><span class="site-name">Blog | kaori</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">java基础——面向对象基础</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-19T13:37:20.000Z" title="发表于 2023-09-19 21:37:20">2023-09-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-10-12T18:21:59.547Z" title="更新于 2023-10-13 02:21:59">2023-10-13</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="java基础——面向对象基础"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>java-面向对象基础</p>
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head_sculpture.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="Blog | kaori"><span class="site-name">Blog | kaori</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">java基础——面向对象基础</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-19T13:37:20.000Z" title="发表于 2023-09-19 21:37:20">2023-09-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-10-13T17:51:36.854Z" title="更新于 2023-10-14 01:51:36">2023-10-14</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="java基础——面向对象基础"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>java-面向对象基础</p>
 <h1 id="类和对象"><a href="#类和对象" class="headerlink" title="类和对象"></a>类和对象</h1><h2 id=""><a href="#" class="headerlink" title=""></a></h2><ul>
 <li>类是规范，类是定义了这个类所有对象的属性和操作，可以根据类的定义来创建对象</li>
 </ul>
@@ -566,10 +566,10 @@
 </li>
 <li>使用细节<ul>
 <li>final修饰的属性也叫常量，一般用XX_XX（大写字母加下划线）来命名</li>
-<li>final修饰的属性必须在定义时给出初值，可以在以下位置赋初值<ul>
-<li>在定义时 </li>
-<li>在构造器中</li>
-<li>在代码块中</li>
+<li>final变量是不可改变的，但它的值可以在运行时刻初始化，也可以在编译时刻初始化，甚至可以放在构造函数和代码块中初始化，而不必在声明的时候初始化，所以下面的语句均合法<ul>
+<li>final inti&#x3D;1;&#x2F;&#x2F;编译时刻</li>
+<li>final int i2&#x3D; (int) (Math.Random①* 10)；&#x2F;&#x2F;运行时刻 </li>
+<li>final int i3: &#x2F;&#x2F;构造函数或代码块里再初始化</li>
 </ul>
 </li>
 <li>若final修饰的属性是静态的，则初始化的位置只能是<ul>
