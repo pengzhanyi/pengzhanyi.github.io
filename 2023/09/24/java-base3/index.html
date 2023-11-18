@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://pengzhanyi.github.io/images/java_base3_03.jpg">
 <meta property="article:published_time" content="2023-09-24T08:50:40.000Z">
-<meta property="article:modified_time" content="2023-11-01T16:30:19.782Z">
+<meta property="article:modified_time" content="2023-11-18T14:50:20.149Z">
 <meta property="article:author" content="zhanyi peng">
 <meta property="article:tag" content="java">
 <meta name="twitter:card" content="summary">
@@ -56,7 +56,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-11-02 00:30:19'
+  postUpdate: '2023-11-18 22:50:20'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -162,7 +162,7 @@
       }
       detectApple()
     })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Blog | kaori" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head_sculpture.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/images/java_base3_03.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Blog | kaori"><span class="site-name">Blog | kaori</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">java基础- 基于面向对象的应用_1</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-24T08:50:40.000Z" title="发表于 2023-09-24 16:50:40">2023-09-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-11-01T16:30:19.782Z" title="更新于 2023-11-02 00:30:19">2023-11-02</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="java基础- 基于面向对象的应用_1"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>[TOC]</p>
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/head_sculpture.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">10</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/images/java_base3_03.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Blog | kaori"><span class="site-name">Blog | kaori</span></a></span><div id="menus"><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">java基础- 基于面向对象的应用_1</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-24T08:50:40.000Z" title="发表于 2023-09-24 16:50:40">2023-09-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-11-18T14:50:20.149Z" title="更新于 2023-11-18 22:50:20">2023-11-18</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="java基础- 基于面向对象的应用_1"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>[TOC]</p>
 <h1 id="枚举和注解"><a href="#枚举和注解" class="headerlink" title="枚举和注解"></a>枚举和注解</h1><h2 id="枚举"><a href="#枚举" class="headerlink" title="枚举"></a>枚举</h2><ul>
 <li><p>基本介绍：</p>
 <ul>
@@ -712,9 +712,10 @@
 </li>
 <li><p>第四处输出true，<u>只要有基本数据类型，判断的是值是否相等</u>，此处会把包装类自动拆箱。</p>
 </li>
-<li><p>具体内容可查看源码或debug跟踪到底层代码</p>
-</li>
 </ul>
+<blockquote>
+<p>这里用到了<strong>享元模式</strong>的设计，享元模式的核心思想是<strong>通过复用对象减少对象的创建数量，从而减少内存的占用和提升性能</strong></p>
+</blockquote>
 <h2 id="String类"><a href="#String类" class="headerlink" title="String类"></a>String类</h2><ul>
 <li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/xiuzhublog/p/12823838.html">String类详解文章</a></li>
 </ul>
@@ -786,7 +787,7 @@
 <li><p>即intern()方法最终是返回在常量池中的地址</p>
 </li>
 <li><p>相关实例：</p>
-  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">String</span> <span class="variable">a</span> <span class="operator">=</span> <span class="string">&quot;abc&quot;</span>;</span><br><span class="line"><span class="type">String</span> <span class="variable">b</span> <span class="operator">=</span> <span class="string">&quot;abc&quot;</span>;</span><br><span class="line">System.out.println(a == b);<span class="comment">//T</span></span><br><span class="line"></span><br><span class="line"><span class="type">String</span> <span class="variable">c</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(<span class="string">&quot;abc&quot;</span>) ;</span><br><span class="line"><span class="type">String</span> <span class="variable">d</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(<span class="string">&quot;abc&quot;</span>);</span><br><span class="line">System.out.println(c == d);<span class="comment">//F</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">System.out.println(a == d.intern());<span class="comment">//T</span></span><br><span class="line">System.out.println(c == d.intern());<span class="comment">//F</span></span><br></pre></td></tr></table></figure></li>
+  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">            <span class="type">String</span> <span class="variable">a</span> <span class="operator">=</span> <span class="string">&quot;abc&quot;</span>;</span><br><span class="line">            <span class="type">String</span> <span class="variable">b</span> <span class="operator">=</span> <span class="string">&quot;abc&quot;</span>;</span><br><span class="line">            System.out.println(a == b);<span class="comment">//T</span></span><br><span class="line">    </span><br><span class="line">            <span class="type">String</span> <span class="variable">c</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(<span class="string">&quot;abc&quot;</span>) ;</span><br><span class="line">            <span class="type">String</span> <span class="variable">d</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">String</span>(<span class="string">&quot;abc&quot;</span>);</span><br><span class="line">            System.out.println(c == d);<span class="comment">//F</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">​            </span><br><span class="line">            System.out.println(a == d.intern());<span class="comment">//T</span></span><br><span class="line">            System.out.println(c == d.intern());<span class="comment">//F</span></span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
 <li><p>创建字符串对象例题分析：</p>
@@ -1401,7 +1402,7 @@
 </li>
 </ul>
 <p>  }
-   </p>
+  </p>
 </li>
 <li><p>案例演示：</p>
  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span>(Object obj : list)&#123;<span class="comment">//上述演示中的list集合</span></span><br><span class="line">    System.out.println(obj);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
@@ -1772,24 +1773,20 @@
 </li>
 </ul>
 </li>
-<li><p>例题分析：看551节例题分析：分析如下程序输出结果：</p>
-<ul>
-<li>这个题还挺恶心的，可以帮助更好了解底层  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//已知Person类按照id和name重写了hashCode和equals方法</span></span><br><span class="line"><span class="type">HashSet</span> <span class="variable">set</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">HashSet</span>();</span><br><span class="line"><span class="type">Person</span> <span class="variable">p1</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Person</span>(<span class="number">1001</span>,<span class="string">&quot;AA&quot;</span>) ;</span><br><span class="line"><span class="type">Person</span> <span class="variable">p2</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Person</span>(<span class="number">1002</span>,<span class="string">&quot;BB&quot;</span>) ;</span><br><span class="line">set.add(p1);</span><br><span class="line">set.add(p2);</span><br><span class="line">p1.name = <span class="string">&quot;CC&quot;</span> ;</span><br><span class="line">set.remove(p1) ;</span><br><span class="line">System.out.println(set);</span><br><span class="line">set.add(<span class="keyword">new</span> <span class="title class_">Person</span>(<span class="number">1001</span>,<span class="string">&quot;CC&quot;</span>));</span><br><span class="line">System.out.println(set) ;</span><br><span class="line">set.add(<span class="keyword">new</span> <span class="title class_">Person</span>(<span class="number">1001</span>,<span class="string">&quot;AA&quot;</span>));</span><br><span class="line">System.out.println(set) ;</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-<li><p>提示：注意p1的hashcode值的变化</p>
-</li>
-<li><p>若是没有重写hashCode和equal结果是什么样的？</p>
-</li>
-<li><p>补充：HashMap的table为什么是transient的：</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://www.cnblogs.com/xrq730/p/5030920.html">相关内容</a>-懒</li>
-<li>public native int hashCode();</li>
 </ul>
 </li>
 </ul>
-</li>
-</ul>
+<p>​        </p>
+<pre><code>- 例题分析：看551节例题分析：分析如下程序输出结果：
+    - 这个题还挺恶心的，可以帮助更好了解底层
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//已知Person类按照id和name重写了hashCode和equals方法</span></span><br><span class="line"><span class="type">HashSet</span> <span class="variable">set</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">HashSet</span>();</span><br><span class="line"><span class="type">Person</span> <span class="variable">p1</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Person</span>(<span class="number">1001</span>,<span class="string">&quot;AA&quot;</span>) ;</span><br><span class="line"><span class="type">Person</span> <span class="variable">p2</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Person</span>(<span class="number">1002</span>,<span class="string">&quot;BB&quot;</span>) ;</span><br><span class="line">set.add(p1);</span><br><span class="line">set.add(p2);</span><br><span class="line">p1.name = <span class="string">&quot;CC&quot;</span> ;</span><br><span class="line">set.remove(p1) ;</span><br><span class="line">System.out.println(set);</span><br><span class="line">set.add(<span class="keyword">new</span> <span class="title class_">Person</span>(<span class="number">1001</span>,<span class="string">&quot;CC&quot;</span>));</span><br><span class="line">System.out.println(set) ;</span><br><span class="line">set.add(<span class="keyword">new</span> <span class="title class_">Person</span>(<span class="number">1001</span>,<span class="string">&quot;AA&quot;</span>));</span><br><span class="line">System.out.println(set) ;</span><br></pre></td></tr></table></figure>
+- 提示：注意p1的hashcode值的变化
+- 若是没有重写hashCode和equal结果是什么样的？
+
+- 补充：HashMap的table为什么是transient的：
+    - [相关内容](https://www.cnblogs.com/xrq730/p/5030920.html)-懒
+    - public native int hashCode();
+</code></pre>
 <h4 id="LinkedHashSet"><a href="#LinkedHashSet" class="headerlink" title="LinkedHashSet"></a>LinkedHashSet</h4><ul>
 <li><p>LinkedHashSet基本介绍：</p>
 <ul>
